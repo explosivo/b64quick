@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		ABD66B8C258A7CC7006F9372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66B8B258A7CC7006F9372 /* AppDelegate.swift */; };
-		ABD66B8E258A7CC7006F9372 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66B8D258A7CC7006F9372 /* ContentView.swift */; };
 		ABD66B90258A7CC9006F9372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B8F258A7CC9006F9372 /* Assets.xcassets */; };
 		ABD66B93258A7CC9006F9372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B92258A7CC9006F9372 /* Preview Assets.xcassets */; };
 		ABD66B96258A7CC9006F9372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B94258A7CC9006F9372 /* Main.storyboard */; };
 		ABD66BA2258A7CC9006F9372 /* b64quickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66BA1258A7CC9006F9372 /* b64quickTests.swift */; };
 		ABD66BAD258A7CC9006F9372 /* b64quickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66BAC258A7CC9006F9372 /* b64quickUITests.swift */; };
+		CBFCF09125F9AC8200455F07 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFCF08F25F9AC8200455F07 /* MenuView.swift */; };
+		CBFCF09225F9AC8200455F07 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFCF09025F9AC8200455F07 /* MenuView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,10 +34,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		CB20631925F46EBC007C2409 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		ABD66B88258A7CC7006F9372 /* b64quick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = b64quick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD66B8B258A7CC7006F9372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		ABD66B8D258A7CC7006F9372 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ABD66B8F258A7CC9006F9372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD66B92258A7CC9006F9372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABD66B95258A7CC9006F9372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,6 +61,8 @@
 		ABD66BA8258A7CC9006F9372 /* b64quickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = b64quickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD66BAC258A7CC9006F9372 /* b64quickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b64quickUITests.swift; sourceTree = "<group>"; };
 		ABD66BAE258A7CC9006F9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBFCF08F25F9AC8200455F07 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		CBFCF09025F9AC8200455F07 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +114,8 @@
 			isa = PBXGroup;
 			children = (
 				ABD66B8B258A7CC7006F9372 /* AppDelegate.swift */,
-				ABD66B8D258A7CC7006F9372 /* ContentView.swift */,
+				CBFCF08F25F9AC8200455F07 /* MenuView.swift */,
+				CBFCF09025F9AC8200455F07 /* MenuView.xib */,
 				ABD66B8F258A7CC9006F9372 /* Assets.xcassets */,
 				ABD66B94258A7CC9006F9372 /* Main.storyboard */,
 				ABD66B97258A7CC9006F9372 /* Info.plist */,
@@ -145,6 +161,7 @@
 				ABD66B84258A7CC6006F9372 /* Sources */,
 				ABD66B85258A7CC6006F9372 /* Frameworks */,
 				ABD66B86258A7CC6006F9372 /* Resources */,
+				CB20631925F46EBC007C2409 /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
@@ -197,7 +214,7 @@
 		ABD66B80258A7CC6006F9372 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1220;
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1230;
 				TargetAttributes = {
 					ABD66B87258A7CC6006F9372 = {
@@ -239,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ABD66B96258A7CC9006F9372 /* Main.storyboard in Resources */,
+				CBFCF09225F9AC8200455F07 /* MenuView.xib in Resources */,
 				ABD66B93258A7CC9006F9372 /* Preview Assets.xcassets in Resources */,
 				ABD66B90258A7CC9006F9372 /* Assets.xcassets in Resources */,
 			);
@@ -265,7 +283,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD66B8E258A7CC7006F9372 /* ContentView.swift in Sources */,
+				CBFCF09125F9AC8200455F07 /* MenuView.swift in Sources */,
 				ABD66B8C258A7CC7006F9372 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -446,7 +464,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -471,7 +489,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
