@@ -9,30 +9,10 @@
 /* Begin PBXBuildFile section */
 		ABD66B8C258A7CC7006F9372 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66B8B258A7CC7006F9372 /* AppDelegate.swift */; };
 		ABD66B90258A7CC9006F9372 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B8F258A7CC9006F9372 /* Assets.xcassets */; };
-		ABD66B93258A7CC9006F9372 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B92258A7CC9006F9372 /* Preview Assets.xcassets */; };
 		ABD66B96258A7CC9006F9372 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABD66B94258A7CC9006F9372 /* Main.storyboard */; };
-		ABD66BA2258A7CC9006F9372 /* b64quickTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66BA1258A7CC9006F9372 /* b64quickTests.swift */; };
-		ABD66BAD258A7CC9006F9372 /* b64quickUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD66BAC258A7CC9006F9372 /* b64quickUITests.swift */; };
 		CBFCF09125F9AC8200455F07 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBFCF08F25F9AC8200455F07 /* MenuView.swift */; };
 		CBFCF09225F9AC8200455F07 /* MenuView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CBFCF09025F9AC8200455F07 /* MenuView.xib */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		ABD66B9E258A7CC9006F9372 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABD66B80258A7CC6006F9372 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABD66B87258A7CC6006F9372;
-			remoteInfo = b64quick;
-		};
-		ABD66BA9258A7CC9006F9372 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = ABD66B80258A7CC6006F9372 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ABD66B87258A7CC6006F9372;
-			remoteInfo = b64quick;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		CB20631925F46EBC007C2409 /* Embed App Extensions */ = {
@@ -51,36 +31,15 @@
 		ABD66B88258A7CC7006F9372 /* b64quick.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = b64quick.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD66B8B258A7CC7006F9372 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABD66B8F258A7CC9006F9372 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABD66B92258A7CC9006F9372 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ABD66B95258A7CC9006F9372 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABD66B97258A7CC9006F9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ABD66B98258A7CC9006F9372 /* b64quick.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = b64quick.entitlements; sourceTree = "<group>"; };
-		ABD66B9D258A7CC9006F9372 /* b64quickTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = b64quickTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABD66BA1258A7CC9006F9372 /* b64quickTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b64quickTests.swift; sourceTree = "<group>"; };
-		ABD66BA3258A7CC9006F9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ABD66BA8258A7CC9006F9372 /* b64quickUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = b64quickUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		ABD66BAC258A7CC9006F9372 /* b64quickUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = b64quickUITests.swift; sourceTree = "<group>"; };
-		ABD66BAE258A7CC9006F9372 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CBFCF08F25F9AC8200455F07 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 		CBFCF09025F9AC8200455F07 /* MenuView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		ABD66B85258A7CC6006F9372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD66B9A258A7CC9006F9372 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD66BA5258A7CC9006F9372 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,8 +53,6 @@
 			isa = PBXGroup;
 			children = (
 				ABD66B8A258A7CC7006F9372 /* b64quick */,
-				ABD66BA0258A7CC9006F9372 /* b64quickTests */,
-				ABD66BAB258A7CC9006F9372 /* b64quickUITests */,
 				ABD66B89258A7CC7006F9372 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,8 +61,6 @@
 			isa = PBXGroup;
 			children = (
 				ABD66B88258A7CC7006F9372 /* b64quick.app */,
-				ABD66B9D258A7CC9006F9372 /* b64quickTests.xctest */,
-				ABD66BA8258A7CC9006F9372 /* b64quickUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -120,35 +75,8 @@
 				ABD66B94258A7CC9006F9372 /* Main.storyboard */,
 				ABD66B97258A7CC9006F9372 /* Info.plist */,
 				ABD66B98258A7CC9006F9372 /* b64quick.entitlements */,
-				ABD66B91258A7CC9006F9372 /* Preview Content */,
 			);
 			path = b64quick;
-			sourceTree = "<group>";
-		};
-		ABD66B91258A7CC9006F9372 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				ABD66B92258A7CC9006F9372 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		ABD66BA0258A7CC9006F9372 /* b64quickTests */ = {
-			isa = PBXGroup;
-			children = (
-				ABD66BA1258A7CC9006F9372 /* b64quickTests.swift */,
-				ABD66BA3258A7CC9006F9372 /* Info.plist */,
-			);
-			path = b64quickTests;
-			sourceTree = "<group>";
-		};
-		ABD66BAB258A7CC9006F9372 /* b64quickUITests */ = {
-			isa = PBXGroup;
-			children = (
-				ABD66BAC258A7CC9006F9372 /* b64quickUITests.swift */,
-				ABD66BAE258A7CC9006F9372 /* Info.plist */,
-			);
-			path = b64quickUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -172,42 +100,6 @@
 			productReference = ABD66B88258A7CC7006F9372 /* b64quick.app */;
 			productType = "com.apple.product-type.application";
 		};
-		ABD66B9C258A7CC9006F9372 /* b64quickTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABD66BB4258A7CC9006F9372 /* Build configuration list for PBXNativeTarget "b64quickTests" */;
-			buildPhases = (
-				ABD66B99258A7CC9006F9372 /* Sources */,
-				ABD66B9A258A7CC9006F9372 /* Frameworks */,
-				ABD66B9B258A7CC9006F9372 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ABD66B9F258A7CC9006F9372 /* PBXTargetDependency */,
-			);
-			name = b64quickTests;
-			productName = b64quickTests;
-			productReference = ABD66B9D258A7CC9006F9372 /* b64quickTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		ABD66BA7258A7CC9006F9372 /* b64quickUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = ABD66BB7258A7CC9006F9372 /* Build configuration list for PBXNativeTarget "b64quickUITests" */;
-			buildPhases = (
-				ABD66BA4258A7CC9006F9372 /* Sources */,
-				ABD66BA5258A7CC9006F9372 /* Frameworks */,
-				ABD66BA6258A7CC9006F9372 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				ABD66BAA258A7CC9006F9372 /* PBXTargetDependency */,
-			);
-			name = b64quickUITests;
-			productName = b64quickUITests;
-			productReference = ABD66BA8258A7CC9006F9372 /* b64quickUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -219,14 +111,6 @@
 				TargetAttributes = {
 					ABD66B87258A7CC6006F9372 = {
 						CreatedOnToolsVersion = 12.2;
-					};
-					ABD66B9C258A7CC9006F9372 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = ABD66B87258A7CC6006F9372;
-					};
-					ABD66BA7258A7CC9006F9372 = {
-						CreatedOnToolsVersion = 12.2;
-						TestTargetID = ABD66B87258A7CC6006F9372;
 					};
 				};
 			};
@@ -244,8 +128,6 @@
 			projectRoot = "";
 			targets = (
 				ABD66B87258A7CC6006F9372 /* b64quick */,
-				ABD66B9C258A7CC9006F9372 /* b64quickTests */,
-				ABD66BA7258A7CC9006F9372 /* b64quickUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -257,22 +139,7 @@
 			files = (
 				ABD66B96258A7CC9006F9372 /* Main.storyboard in Resources */,
 				CBFCF09225F9AC8200455F07 /* MenuView.xib in Resources */,
-				ABD66B93258A7CC9006F9372 /* Preview Assets.xcassets in Resources */,
 				ABD66B90258A7CC9006F9372 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD66B9B258A7CC9006F9372 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD66BA6258A7CC9006F9372 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,36 +155,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABD66B99258A7CC9006F9372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABD66BA2258A7CC9006F9372 /* b64quickTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		ABD66BA4258A7CC9006F9372 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				ABD66BAD258A7CC9006F9372 /* b64quickUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		ABD66B9F258A7CC9006F9372 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABD66B87258A7CC6006F9372 /* b64quick */;
-			targetProxy = ABD66B9E258A7CC9006F9372 /* PBXContainerItemProxy */;
-		};
-		ABD66BAA258A7CC9006F9372 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = ABD66B87258A7CC6006F9372 /* b64quick */;
-			targetProxy = ABD66BA9258A7CC9006F9372 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		ABD66B94258A7CC9006F9372 /* Main.storyboard */ = {
@@ -455,7 +293,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"b64quick/Preview Content\"";
 				DEVELOPMENT_TEAM = HSKH9T6CG2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -480,7 +317,6 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_ASSET_PATHS = "\"b64quick/Preview Content\"";
 				DEVELOPMENT_TEAM = HSKH9T6CG2;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
@@ -493,90 +329,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quick;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-			};
-			name = Release;
-		};
-		ABD66BB5258A7CC9006F9372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HSKH9T6CG2;
-				INFOPLIST_FILE = b64quickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quickTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/b64quick.app/Contents/MacOS/b64quick";
-			};
-			name = Debug;
-		};
-		ABD66BB6258A7CC9006F9372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HSKH9T6CG2;
-				INFOPLIST_FILE = b64quickTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
-				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quickTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/b64quick.app/Contents/MacOS/b64quick";
-			};
-			name = Release;
-		};
-		ABD66BB8258A7CC9006F9372 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HSKH9T6CG2;
-				INFOPLIST_FILE = b64quickUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quickUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = b64quick;
-			};
-			name = Debug;
-		};
-		ABD66BB9258A7CC9006F9372 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = HSKH9T6CG2;
-				INFOPLIST_FILE = b64quickUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.zachnickell.b64quickUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TEST_TARGET_NAME = b64quick;
 			};
 			name = Release;
 		};
@@ -597,24 +349,6 @@
 			buildConfigurations = (
 				ABD66BB2258A7CC9006F9372 /* Debug */,
 				ABD66BB3258A7CC9006F9372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABD66BB4258A7CC9006F9372 /* Build configuration list for PBXNativeTarget "b64quickTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABD66BB5258A7CC9006F9372 /* Debug */,
-				ABD66BB6258A7CC9006F9372 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ABD66BB7258A7CC9006F9372 /* Build configuration list for PBXNativeTarget "b64quickUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ABD66BB8258A7CC9006F9372 /* Debug */,
-				ABD66BB9258A7CC9006F9372 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
